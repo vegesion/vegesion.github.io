@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "plum" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
-title                    : "vegesion의 블로그!!"
+title                    : "vegesion"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "JunSeo Kang"
-description              : "준서의 아카이브입니다"
+description              : "준서의 아카이브"
 url                      : "https://vegesion.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "vegesion/vegesion.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "강준서"
   avatar           : "/assets/20501_avatar.png"
-  bio              : "그냥저냥 평범한 고딩"
+  bio              : "그냥 고등학생"
   location         : "대한민국, 서울"
   email            : "helison777@gmail.com"
   links:
