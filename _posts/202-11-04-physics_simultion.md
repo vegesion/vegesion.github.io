@@ -2,6 +2,7 @@
 layout: single
 title: "물리 시뮬레이션"
 excerpt: "이규현쌤 물리 시뮬레이션 수행평가 processing 소스코드"
+date: 2021-11-04
 ---
 
 ## 물리시뮬레이션 수행 소스코드  
