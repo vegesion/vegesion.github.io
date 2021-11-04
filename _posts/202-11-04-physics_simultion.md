@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "물리 시뮬레이션"
+title: "물리 포물선 운동 시뮬레이션"
 excerpt: "이규현쌤 물리 시뮬레이션 수행평가 processing 소스코드"
 date: 2021-11-04
 ---
@@ -8,8 +8,9 @@ date: 2021-11-04
 ## 물리시뮬레이션 수행 소스코드  
 
 수행평가로 작성한 포물선 운동 모델 코드  
-**processing python**으로 구현
+**processing python**으로 구현  
 
+{% include video id="fUzxh1DyvTk" provider="youtusbe" %}
 
 ```python
 canvas_x_size = 1000
