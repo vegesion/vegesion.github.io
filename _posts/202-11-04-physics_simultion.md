@@ -6,8 +6,8 @@ excerpt: "이규현쌤 물리 시뮬레이션 수행평가 processing 소스코�
 
 ## 물리시뮬레이션 수행 소스코드  
 
-### 수행평가로 작성한 포물선 운동 모델 코드  
-### processing python으로 구현
+##### 수행평가로 작성한 포물선 운동 모델 코드
+##### processing python으로 구현
 
 
 ```python
