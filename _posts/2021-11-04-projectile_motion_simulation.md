@@ -98,6 +98,12 @@ def draw():
 ```  
 ---
 
+
+실행 동영상  
+
+![projectile_motion_video](https://youtu.be/aUTLJXV326k)
+
+
 개체 하나의 분석 그래프는 다음과 같다.
   
 ![projectile_motion_graph](/assets/images/projectile_motion_all_graph.png)  
