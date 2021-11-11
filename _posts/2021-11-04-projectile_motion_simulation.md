@@ -95,4 +95,14 @@ def draw():
     if passed_time >= 9:
             print(graph_element)
             exit()
-```
+```  
+
+하나의 개체 분석 그래프는 다음과 같다.
+  
+  ![projectile_motion_graph](_posts\images\projectile_motion_graph.png)  
+
+
+전체 시행 분석 그래프는 다음과 같다.
+
+  ![projectile_motion_all_graph](_posts\images\projectile_motion_all_graph.png)  
+
