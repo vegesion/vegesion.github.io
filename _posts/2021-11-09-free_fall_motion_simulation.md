@@ -95,3 +95,8 @@ def draw():
             print(graph_element)
             exit()
 ```
+
+
+전체 시행 분석 그래프는 다음과 같다.
+
+![freefall_motion_all_graph](/assets/images/freefall_motion_all_graph.png)  

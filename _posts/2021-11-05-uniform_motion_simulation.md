@@ -79,3 +79,8 @@ def draw():
 ```
 
 
+전체 시행 그래프는 다음과 같다.
+
+![uniform_motion_all_graph](/assets/images/uniform_motion_all_graph.png)  
+
+
