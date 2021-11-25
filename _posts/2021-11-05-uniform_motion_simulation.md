@@ -5,10 +5,10 @@ excerpt: "물리 시뮬레이션 등속도 운동 모델 processing 소스코드
 date: 2021-11-05
 toc: true
 toc_sticky: true
-toc_label: "물리 시뮬레이션"
+toc_label: "등속도 운동"
 ---
 
-## 물리시뮬레이션 수행 소스코드  
+## 소스코드  
 
 수행평가로 작성한 등속도 운동 모델 코드  
 **processing python**으로 구현  
@@ -80,6 +80,8 @@ def draw():
     #     print(graph_elements)
 
 ```
+
+## 분석 그래프
 
 
 전체 시행 그래프는 다음과 같다.
