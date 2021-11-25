@@ -5,10 +5,10 @@ excerpt: "물리 시뮬레이션 포물선 운동 모델 processing 소스코드
 date: 2021-11-04
 toc: true
 toc_sticky: true
-toc_label: "물리 시뮬레이션"
+toc_label: "포물선 운동"
 ---
 
-## 물리시뮬레이션 수행 소스코드  
+## 소스코드  
 
 수행평가로 작성한 포물선 운동 모델 코드  
 **processing python**으로 구현  
@@ -101,10 +101,15 @@ def draw():
 ```  
 ---
 
+## 실행 동영상
+
 
 실행 동영상  
 
 ![projectile_motion_video](https://youtu.be/aUTLJXV326k)
+
+
+## 분석 그래프
 
 
 개체 하나의 분석 그래프는 다음과 같다.
