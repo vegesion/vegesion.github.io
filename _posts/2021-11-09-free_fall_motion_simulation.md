@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: "자유낙하운동"
 ---
 
-## 물리시뮬레이션 소스코드  
+## 소스코드  
 
 수행평가로 작성한 자유낙하 운동 모델 코드  
 **processing python**으로 구현  
