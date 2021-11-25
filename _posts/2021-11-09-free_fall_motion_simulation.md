@@ -6,7 +6,6 @@ date: 2021-11-09
 toc: true
 toc_sticky: true
 toc_label: "소스코드"
-toc_label: "분석 그래프"
 ---
 
 ## 물리시뮬레이션 소스코드  
