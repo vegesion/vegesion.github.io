@@ -5,7 +5,7 @@ excerpt: "물리 시뮬레이션 자유낙하 운동 모델 processing 소스코
 date: 2021-11-09
 toc: true
 toc_sticky: true
-toc_label: "소스코드"
+toc_label: "자유낙하운동"
 ---
 
 ## 물리시뮬레이션 소스코드  
@@ -99,7 +99,7 @@ def draw():
             exit()
 ```
 
-## 물리시뮬레이션 소스코드 
+## 분석 
 
 
 전체 시행 분석 그래프는 다음과 같다.
