@@ -188,6 +188,14 @@ def draw():
 
 ```
 
+## 실행 동영상
+
+
+실행 동영상  
+
+{% include video id="XfOf1InMT9s" provider="youtube" %}
+
+
 ## 결과
 
 

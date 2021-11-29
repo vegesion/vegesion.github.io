@@ -37,6 +37,13 @@ toc_label: "감염 시뮬레이션"
 그래프 : 시간에 따른 감염 개체 수 비율 (죽은 개체 포함)
 
 
+## 실행 동영상
+
+
+실행 동영상  
+
+{% include video id="qPHI5_OSd5Y" provider="youtube" %}
+
 
 ## 결과
 
