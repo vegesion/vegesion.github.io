@@ -198,5 +198,5 @@ def draw():
 
 ![infection_simulation_default_result](/assets/images/infection_simulation_default_result.png) 
 
-예측했듯이 시그모이드 함수 그래프 도출
+예측했듯이 시그모이드 함수 개형 그래프 도출
 
