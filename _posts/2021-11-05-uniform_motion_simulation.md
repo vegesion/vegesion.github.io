@@ -81,6 +81,15 @@ def draw():
 
 ```
 
+## 실행 동영상
+
+
+실행 동영상  
+
+{% include video id="DFvv2Joeacw" provider="youtube" %}
+
+
+
 ## 분석 그래프
 
 

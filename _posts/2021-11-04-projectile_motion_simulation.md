@@ -106,7 +106,7 @@ def draw():
 
 실행 동영상  
 
-{% include video id="fUzxh1DyvTk" provider="youtube" %}
+{% include video id="aUTLJXV326k" provider="youtube" %}
 
 
 ## 분석 그래프

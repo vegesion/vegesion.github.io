@@ -99,6 +99,15 @@ def draw():
             exit()
 ```
 
+## 실행 동영상
+
+
+실행 동영상  
+
+{% include video id="LM8Es-8Fk9Y" provider="youtube" %}
+
+
+
 ## 분석 그래프
 
 
