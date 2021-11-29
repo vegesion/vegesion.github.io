@@ -106,7 +106,7 @@ def draw():
 
 실행 동영상  
 
-![projectile_motion_video](https://youtu.be/aUTLJXV326k)
+{% include video id="fUzxh1DyvTk" provider="youtube" %}
 
 
 ## 분석 그래프
