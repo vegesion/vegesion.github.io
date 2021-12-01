@@ -19,6 +19,19 @@ pygame은 vsc에서 구동 가능하여 여러 라이브러리들을 같이 쓸 
 
 특히 그래프 그릴 때 matplotlib랑 같이 쓸 수 있어서 더 정확한 그래프 그리기가 가능함  
 
+
+## 결과
+
+matplotlib로 작성한 결과그래프는 다음과 같다.  
+총 두 번 시행하였고 전제적인 그래프의 모양은 동일하지만  
+최초 감염 발생 시각이 달라 x좌표만 살짝 다른걸 볼 수 있다.
+
+![infection_simulation_refined_result1](/assets/images/infection_simulation_1.png)
+
+![infection_simulation_refined_result2](/assets/images/infection_simulation_2.png) 
+
+
+
 ## 소스코드
 
 ```python
@@ -151,16 +164,8 @@ while SB == 0:
 
 ```
 
-## 결과
 
-matplotlib로 작성한 결과그래프는 다음과 같다.  
-총 두 번 시행하였고 전제적인 그래프의 모양은 동일하지만  
-최초 감염 발생 시각이 달라 x좌표만 살짝 다른걸 볼 수 있다.
-
-![infection_simulation_refined_result1](/assets/images/infection_simulation_1.png)
-
-![infection_simulation_refined_result2](/assets/images/infection_simulation_2.png) 
-
-
+```
 확실히 정교한 그래프가 도출된다.  
 seaborn만큼의 성능은 아니지만 matplotlib도 많이 쓰도록 하자
+```
