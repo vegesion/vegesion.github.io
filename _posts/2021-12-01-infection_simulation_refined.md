@@ -32,7 +32,7 @@ matplotlib로 작성한 결과그래프는 다음과 같다.
 -> p = 0.05로 한번 시행했을 때의 그래프 
 
 
-![infection_simulation_refined_result2](/assets/images/infection_simulation_refined.png) 
+![infection_simulation_refined_result2](/assets/images/infection_simulation_compare.png) 
 
 
 
