@@ -23,12 +23,16 @@ pygame은 vsc에서 구동 가능하여 여러 라이브러리들을 같이 쓸 
 ## 결과
 
 matplotlib로 작성한 결과그래프는 다음과 같다.  
-총 두 번 시행하였고 전제적인 그래프의 모양은 동일하지만  
-최초 감염 발생 시각이 달라 x좌표만 살짝 다른걸 볼 수 있다.
+감염률 다르게 총 네 번 시행하였고  
+전체적인 그래프의 모양은 동일하지만 감염률에 따라 그래프 폭이 달라진다는 것을 확인할 수 있다.
 
 ![infection_simulation_refined_result1](/assets/images/infection_simulation_1.png)
 
-![infection_simulation_refined_result2](/assets/images/infection_simulation_2.png) 
+
+-> p = 0.05로 한번 시행했을 때의 그래프 
+
+
+![infection_simulation_refined_result2](/assets/images/infection_simulation_refined.png) 
 
 
 
