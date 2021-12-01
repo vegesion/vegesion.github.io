@@ -29,6 +29,25 @@ toc_label: "감염 시뮬레이션"
 (breed랑 die 함수 다 꺼놓은 것 볼 수 있을 것임)
 
 
+
+## 실행 동영상
+
+
+실행 동영상  
+
+{% include video id="XfOf1InMT9s" provider="youtube" %}
+
+
+## 결과
+
+
+결과는 다음과 같다. 
+
+![infection_simulation_default_result](/assets/images/infection_simulation_default_result.png) 
+
+예측했듯이 시그모이드 함수 개형 그래프 도출
+
+
 ## 소스코드 
 
 ```python
@@ -187,21 +206,4 @@ def draw():
     show()
 
 ```
-
-## 실행 동영상
-
-
-실행 동영상  
-
-{% include video id="XfOf1InMT9s" provider="youtube" %}
-
-
-## 결과
-
-
-결과는 다음과 같다. 
-
-![infection_simulation_default_result](/assets/images/infection_simulation_default_result.png) 
-
-예측했듯이 시그모이드 함수 개형 그래프 도출
 

@@ -8,12 +8,34 @@ toc_sticky: true
 toc_label: "포물선 운동"
 ---
 
-## 소스코드  
+## 개요  
 
 수행평가로 작성한 포물선 운동 모델 코드  
 **processing python**으로 구현  
 
-{% include video id="fUzxh1DyvTk" provider="youtusbe" %}
+
+## 실행 동영상
+
+
+실행 동영상  
+
+{% include video id="aUTLJXV326k" provider="youtube" %}
+
+
+## 분석 그래프
+
+
+개체 하나의 분석 그래프는 다음과 같다.
+  
+![projectile_motion_graph](/assets/images/projectile_motion_all_graph.png)  
+
+
+전체 시행 분석 그래프는 다음과 같다.
+
+![projectile_motion_all_graph](/assets/images/projectile_motion_all_graph.png)  
+
+
+## 소스코드
 
 ```python
 canvas_x_size = 1000
@@ -101,23 +123,5 @@ def draw():
 ```  
 ---
 
-## 실행 동영상
 
-
-실행 동영상  
-
-{% include video id="aUTLJXV326k" provider="youtube" %}
-
-
-## 분석 그래프
-
-
-개체 하나의 분석 그래프는 다음과 같다.
-  
-![projectile_motion_graph](/assets/images/projectile_motion_all_graph.png)  
-
-
-전체 시행 분석 그래프는 다음과 같다.
-
-![projectile_motion_all_graph](/assets/images/projectile_motion_all_graph.png)  
 

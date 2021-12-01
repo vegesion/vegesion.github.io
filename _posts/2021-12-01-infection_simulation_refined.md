@@ -35,6 +35,8 @@ matplotlib로 작성한 결과그래프는 다음과 같다.
 ## 소스코드
 
 ```python
+
+import time
 import pygame as pg
 from math import dist
 from random import *
