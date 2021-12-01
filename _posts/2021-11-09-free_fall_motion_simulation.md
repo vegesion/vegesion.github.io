@@ -8,12 +8,32 @@ toc_sticky: true
 toc_label: "자유낙하운동"
 ---
 
-## 소스코드  
+## 개요
 
 수행평가로 작성한 자유낙하 운동 모델 코드  
 **processing python**으로 구현  
 포물선 운동 모델 코드에서 vx를 0으로만 설정, 공의 x위치 조정  
 
+
+
+## 실행 동영상
+
+
+실행 동영상  
+
+{% include video id="LM8Es-8Fk9Y" provider="youtube" %}
+
+
+
+## 분석 그래프
+
+
+전체 시행 분석 그래프는 다음과 같다.
+
+![freefall_motion_all_graph](/assets/images/freefall_motion_all_graph.png)  
+
+
+## 소스코드
 ```python
 canvas_x_size = 1000
 canvas_y_size = 800
@@ -99,18 +119,3 @@ def draw():
             exit()
 ```
 
-## 실행 동영상
-
-
-실행 동영상  
-
-{% include video id="LM8Es-8Fk9Y" provider="youtube" %}
-
-
-
-## 분석 그래프
-
-
-전체 시행 분석 그래프는 다음과 같다.
-
-![freefall_motion_all_graph](/assets/images/freefall_motion_all_graph.png)  

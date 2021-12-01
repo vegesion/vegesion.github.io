@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "감염 시뮬레이션-pygame"
+title: "감염 시뮬레이션 - pygame"
 excerpt: "전염병 감염 모델 pygame 소스코드"
 date: 2021-12-01
 toc: true

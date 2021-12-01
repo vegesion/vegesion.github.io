@@ -8,10 +8,30 @@ toc_sticky: true
 toc_label: "등속도 운동"
 ---
 
-## 소스코드  
+## 개요
 
 수행평가로 작성한 등속도 운동 모델 코드  
 **processing python**으로 구현  
+
+
+## 실행 동영상
+
+
+실행 동영상  
+
+{% include video id="DFvv2Joeacw" provider="youtube" %}
+
+
+
+## 분석 그래프
+
+
+전체 시행 그래프는 다음과 같다.
+
+![uniform_motion_all_graph](/assets/images/uniform_motion_all_graph.png)  
+
+
+## 소스코드
 
 ```python
 canvas_x_size = 800
@@ -80,21 +100,3 @@ def draw():
     #     print(graph_elements)
 
 ```
-
-## 실행 동영상
-
-
-실행 동영상  
-
-{% include video id="DFvv2Joeacw" provider="youtube" %}
-
-
-
-## 분석 그래프
-
-
-전체 시행 그래프는 다음과 같다.
-
-![uniform_motion_all_graph](/assets/images/uniform_motion_all_graph.png)  
-
-
