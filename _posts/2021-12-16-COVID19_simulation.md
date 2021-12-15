@@ -11,16 +11,27 @@ toc_label: "COVID-19 SEIR model"
 
 ## 개요
 
-SEIR 모델을 전세계적으로 유행 중인 COVID-19에 적용(델타 변이 x)  
+SEIR 모델을 COVID-19의 특성을 반영한 공간에서 구현  
 
-R0 = 2.5  
-incubation period = 4  
-infectious period = 8  
+초기 인구 800  
+초기 감염자 1  
+이동속도 = 2  
 
-모든 초기 정보는 출처가 CDC.  
-R0의 경우 CDC가 간주한 다섯 가지 시나리오 중 현재에 가장 적합한 시나리오 5를 채택하였음  
+
+## 실행 동영상 
+
+실행 동영상  
+
+{% include video id="HUZ47suI5Kw" provider="youtube" %}
+
+
 
 ## 결과
+
+![infection_simulation_refined_result1](/assets/images/SEIR_model_simulation.png)
+
+
+밑의 결정론적 해석으로 그린 그래프와 거의 일치한다
 
 
 ![infection_simulation_refined_result1](/assets/images/SEIR_model_COVID19.png)
