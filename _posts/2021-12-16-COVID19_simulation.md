@@ -18,20 +18,7 @@ SEIR 모델을 COVID-19의 특성을 반영한 공간에서 구현
 이동속도 = 2  
 
 
-## 실행 동영상 
-
-실행 동영상  
-
-{% include video id="HUZ47suI5Kw" provider="youtube" %}
-
-
-
 ## 결과
-
-![infection_simulation_refined_result1](/assets/images/SEIR_model_simulation.png)
-
-
-밑의 결정론적 해석으로 그린 그래프와 거의 일치한다
 
 
 ![infection_simulation_refined_result1](/assets/images/SEIR_model_COVID19.png)

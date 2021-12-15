@@ -21,11 +21,27 @@ infectious period = 8
 R0의 경우 CDC가 간주한 다섯 가지 시나리오 중 현재에 가장 적합한 시나리오 5를 채택하였음  
 
 
+
+## 실행 동영상 
+
+실행 동영상  
+
+{% include video id="HUZ47suI5Kw" provider="youtube" %}
+
+
+
 ## 결과
+
+![infection_simulation_refined_result1](/assets/images/SEIR_model_simulation.png)
+
+
+밑의 결정론적 해석으로 그린 그래프와 거의 일치한다
 
 
 ![infection_simulation_refined_result1](/assets/images/SEIR_model_COVID19.png)
 
+
+## 소스코드
 
 
 ```python
