@@ -26,7 +26,7 @@ R0의 경우 CDC가 간주한 다섯 가지 시나리오 중 현재에 가장 �
 
 실행 동영상  
 
-{% include video id="HUZ47suI5Kw" provider="youtube" %}
+{% include video id="QVb6vhzsmGc" provider="youtube" %}
 
 
 
