@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "COVID-19의 SEIR 모델"
+title: "COVID-19 SEIR 모델"
 excerpt: "코로나 바이러스에 대한 SEIR 모델의 적용"
 date: 2021-12-16
 toc: true
@@ -11,7 +11,7 @@ toc_label: "COVID-19 SEIR model"
 
 ## 개요
 
-SEIR 모델을 전세계적으로 유행 중인 COVID-19에 적용  
+SEIR 모델을 전세계적으로 유행 중인 COVID-19에 적용(델타 변이 x)  
 
 R0 = 2.5  
 incubation period = 4  
