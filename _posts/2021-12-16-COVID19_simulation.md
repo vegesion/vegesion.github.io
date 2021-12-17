@@ -12,16 +12,72 @@ toc_label: "COVID-19 SEIR model"
 ## 개요
 
 SEIR 모델을 COVID-19의 특성을 반영한 공간에서 구현  
+SEIR 모델은 기존 SIR 모델을 개선하여 제작된 수학적 역학(epidemiology) 모델  
 
-초기 인구 800  
-초기 감염자 1  
-이동속도 = 2  
+
+S : susceptible (감염취약군)  
+E : exposed (노출군)  
+I : infectious (감염군)  
+R : recovered (회복군)  
+
+그렇기에 각 군은 시간에 종속인 함수로 볼 수 있으므로 S(t), E(t), I(t), R(t)로 표현할 수 있고 다른 변수들을 소개하자면 다음과 같다  
+
+
+![SEIR_variables](/assets/images/SEIR_variables.png)  
+
+
+또한 각 군에 대해서는 다음의 관계가 성립한다  
+(ARC에 쓴건데 내 최악의 영어 실력을 감안해야함)  
+
+
+![SEIR_ARC_paper_excerpt](/assets/images/SEIR_ARC_paper_excerpt.png)  
+
+
+위 글에서 볼 수 있 듯이 4개의 군들의 관계는 상미분 방정식(ODE) 의 비선형시스템으로 얽혀있고  
+이것을 적분하여 푼다면 시간에 따른 각 군들의 변화의 추이를 볼 수 있다  
+
+
+그러나 그것을 어떻게 푸는지 모르는 1인 강준서,  
+scipy 모듈의 integrate.odeint 함수를 이용한다  
+
+
+밑과 같은 함수를 설정하여 각 군끼리의 관계를 설정항 다음 odeint함수에 집어넣는다  
+parameter로는 covid 함수, x(S,E,I,R의 정보가 리스트에 담겨있는 것), t(변수) 가 사용되었다  
+
+아래는 그냥 covid 함수 어떻게 생겼는지에 대한 것 
+
+
+```python
+
+def covid(x,t):
+    s,e,i,r = x
+    dx = np.zeros(4)
+    dx[0] = -(1-u)*beta*s*i
+    dx[1] = (1-u)*beta*s*i - alpha*e
+    dx[2] = alpha*e - gamma*i
+    dx[3] = gamma*i
+    return dx
+
+```
+
+
+이렇게 해서 프로그램으로 적분 때리면 결과 항목의 그래프가 도출된다
+
+
+## 초기 설정  
+
+
+R0 = 2.5  
+incubation period = 4  
+infectious period = 8  
+
+(COVID-19와 동일한 값으로 설정)
 
 
 ## 결과
 
 
-![infection_simulation_refined_result1](/assets/images/SEIR_model_COVID19.png)
+![SEIR_graph_COVID-19_model](/assets/images/SEIR_model_COVID19.png)
 
 
 
